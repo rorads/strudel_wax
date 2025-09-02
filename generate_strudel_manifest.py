@@ -136,7 +136,8 @@ def build_manifest(root: Path, base_url: str) -> OrderedDict:
 
     # Sort directory names and file lists
     for k in per_dir:
-        per_dir[k].sort()
+        # Sort case-insensitively for human-friendly alphabetical order
+        per_dir[k].sort(key=lambda s: s.casefold())
 
     ordered = OrderedDict()
     ordered["_base"] = base_url
@@ -193,7 +194,7 @@ def main(argv: List[str]) -> int:
     # Build new manifest
     manifest = build_manifest(root, BASE_URL)
     with manifest_path.open("w", encoding="utf-8") as f:
-        json.dump(manifest, f, indent=2)
+        json.dump(manifest, f, indent=2, ensure_ascii=False)
         f.write("\n")
 
     # Update stored hash
