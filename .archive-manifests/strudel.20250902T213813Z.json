@@ -96,6 +96,9 @@
     "teentonic/pierre-henry-teen-tonic3.wav",
     "teentonic/pierre-henry-teen-tonic4.wav"
   ],
+  "test": [
+    "test/z_malcom-short.wav"
+  ],
   "timeslie": [
     "timeslie/joe-farrell-times-lie.wav",
     "timeslie/joe-farrell-times-lie2.wav"
