@@ -70,6 +70,7 @@
     "oneshots/quincy-jones-kitty-with-the-bent-frame.wav",
     "oneshots/quincy-jones-kitty-with-the-bent-frame2.wav",
     "oneshots/quincy-jones-up-against-the-wall.wav",
+    "oneshots/z_malcom-short.wav",
     "oneshots/z_quincy_bassclarinet.wav"
   ],
   "ooh": [
@@ -95,9 +96,6 @@
     "teentonic/pierre-henry-teen-tonic2.wav",
     "teentonic/pierre-henry-teen-tonic3.wav",
     "teentonic/pierre-henry-teen-tonic4.wav"
-  ],
-  "test": [
-    "test/z_malcom-short.wav"
   ],
   "timeslie": [
     "timeslie/joe-farrell-times-lie.wav",
